@@ -1,8 +1,8 @@
 //package com.crm.qa.StepDefinitions;
 //
-//import org.junit.Assert;
 //import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
+//import org.testng.Assert;
 //
 //import com.crm.qa.BaseClass.TestBase;
 //import com.crm.qa.Pages.HomePage;
@@ -22,6 +22,7 @@
 //	public void user_is_already_on_Login_Page() throws Throwable
 //	{
 //		initialization();
+//		Log.info("Browser Launched Successfully");
 //	}
 //
 //	@When("^Title of login page is Free CRM$")
@@ -30,12 +31,14 @@
 //		login = new LoginPage();
 //		String loginPageTitle = login.validateLoginPageTitle();
 //		Assert.assertEquals(loginPageTitle, "CRMPRO - CRM software for customer relationship management, sales, and support.");
+//		Log.info("Login Page Title Verified");
 //	}
 //
 //	@Then("^User enters username and password and click on login button$")
 //	public void user_enters_username_and_password() throws Throwable 
 //	{
 //		login.login(property.getProperty("Username"), property.getProperty("Password"));
+//		Log.info("Successfully Logged into CRM Application");
 //	}
 //
 //	@Then("^User is on home page$")
@@ -44,5 +47,6 @@
 //		homePage = new HomePage();
 //		String homePageTitle = homePage.verifyHomePageTitle();
 //		Assert.assertEquals(homePageTitle, "CRMPRO"); 
+//		Log.info("User is on Home Page");
 //	}
 //}

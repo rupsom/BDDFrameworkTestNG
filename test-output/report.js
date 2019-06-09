@@ -113,14 +113,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 21832735666,
+  "duration": 13681007808,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 74761162,
+  "duration": 77391874,
   "status": "passed"
 });
 formatter.match({
@@ -137,14 +137,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 7384838121,
+  "duration": 7688214299,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 28243904,
+  "duration": 6469888,
   "status": "passed"
 });
 formatter.scenario({
@@ -183,14 +183,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 16547799439,
+  "duration": 12433914452,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 10410927,
+  "duration": 14709209,
   "status": "passed"
 });
 formatter.match({
@@ -207,14 +207,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 8336398408,
+  "duration": 8695289237,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 39177314,
+  "duration": 11128822,
   "status": "passed"
 });
 });
