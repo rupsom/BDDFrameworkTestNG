@@ -1,5 +1,6 @@
 com\crm\qa\Pages\DealsPage.class
 com\crm\qa\ExtentReportListener\ExtentReportListener.class
+com\crm\qa\StepDefinitions\LoginTestCase_1.class
 com\crm\qa\Utilities\TestUtility.class
 com\crm\qa\Pages\TasksPage.class
 com\crm\qa\TestRunner\TestRunnerClass.class

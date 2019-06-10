@@ -17,14 +17,14 @@ public class LoginTestCase_2 extends TestBase
 	LoginPage login;
 	HomePage homePage;
 	
-	@Given("^User is already on Login Page$")
+	@Given("^User is should be on Login Page$")
 	public void user_is_already_on_Login_Page() throws Throwable
 	{
 		initialization();
 		Log.info("Browser Launched Successfully");
 	}
 
-	@When("^Title of login page is Free CRM$")
+	@When("^Title of login page should be verified$")
 	public void title_of_login_page_is_Free_CRM() throws Throwable 
 	{
 		login = new LoginPage();
@@ -33,14 +33,14 @@ public class LoginTestCase_2 extends TestBase
 		Log.info("Login Page Title Verified");
 	}
 
-	@Then("^User enters \"([^\"]*)\" and \"([^\"]*)\" and click on login button$")
+	@Then("^User enters \"([^\"]*)\" and \"([^\"]*)\" and clicks on login button$")
 	public void user_enters_and_and_click_on_login_button(String Username, String Password) throws Throwable 
 	{
 		login.login(Username, Password);
 		Log.info("Successfully Logged into CRM Application");
 	}
 
-	@Then("^User is on home page$")
+	@Then("^User should be on home page$")
 	public void user_is_on_home_page() throws Throwable 
 	{
 		homePage = new HomePage();

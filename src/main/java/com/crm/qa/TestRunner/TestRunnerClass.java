@@ -10,7 +10,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions
-(features = {"D:\\Pavan_JavaPractice\\Automation\\BDDFrameworkTestNG\\src\\main\\java\\com\\crm\\qa\\Features\\LoginFeature_2.feature"}, //Path of the Feature Files.
+(features = {"src\\main\\java\\com\\crm\\qa\\Features"}, //Path of the Feature Files.
 glue= {"com.crm.qa.StepDefinitions"}, //Path of the Step Definition Files.
 format = {"pretty", "html:test-output", "junit:junit_xml/cucumber.xml"}, //To Generate Output in Different types of Reports.
 monochrome = true, //To display Console Output in Very Readable Format.
@@ -45,3 +45,9 @@ public class TestRunnerClass
         testNGCucumberRunner.finish();
     }
 }
+
+//To Run Specific Feature File --- Give Complete Path of Particular Feature File to Run.
+//"D:\\Pavan_JavaPractice\\Automation\\BDDFrameworkJUnit\\src\\main\\java\\com\\crm\\qa\\Features\\LoginFeature_1.feature"
+
+//To Run All Feature Files at a Single Time -- Give Path as Below
+//"src\\main\\java\\com\\crm\\qa\\Features"

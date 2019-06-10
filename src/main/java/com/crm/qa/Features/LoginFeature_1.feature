@@ -1,4 +1,4 @@
-Feature: CRM Login
+Feature: Free CRM Login Without Examples
 
   #Without Examples Keyword
   #Logging in Normally - Taking UserName and Password from Property file
