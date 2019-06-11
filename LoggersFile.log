@@ -1,12 +1,22 @@
-2019-06-10 21:28:10,370  INFO [main] WebEventListener:24 - Browser Launched Successfully
-2019-06-10 21:28:10,477  INFO [main] LoginPage:33 - Login Page Title Verified
-2019-06-10 21:28:15,747  INFO [main] HomePage:40 - Successfully Logged into CRM Application
-2019-06-10 21:28:15,757  INFO [main] HomePage:49 - User is on Home Page
-2019-06-10 21:28:37,911  INFO [main] WebEventListener:24 - Browser Launched Successfully
-2019-06-10 21:28:37,940  INFO [main] LoginPage:33 - Login Page Title Verified
-2019-06-10 21:28:44,288  INFO [main] HomePage:40 - Successfully Logged into CRM Application
-2019-06-10 21:28:44,301  INFO [main] HomePage:49 - User is on Home Page
-2019-06-10 21:29:06,743  INFO [main] WebEventListener:24 - Browser Launched Successfully
-2019-06-10 21:29:06,770  INFO [main] LoginPage:33 - Login Page Title Verified
-2019-06-10 21:29:12,675  INFO [main] HomePage:40 - Successfully Logged into CRM Application
-2019-06-10 21:29:12,695  INFO [main] HomePage:49 - User is on Home Page
+2019-06-11 20:30:38,615  INFO [main] WebEventListener:24 - Browser Launched Successfully
+2019-06-11 20:30:38,683  INFO [main] LoginPage:33 - Login Page Title Verified
+2019-06-11 20:30:44,234  INFO [main] HomePage:40 - Successfully Logged into CRM Application
+2019-06-11 20:30:44,254  INFO [main] HomePage:49 - User is on Home Page
+2019-06-11 20:31:01,870  INFO [main] WebEventListener:24 - Browser Launched Successfully
+2019-06-11 20:31:01,886  INFO [main] LoginPage:33 - Login Page Title Verified
+2019-06-11 20:31:10,215  INFO [main] HomePage:40 - Successfully Logged into CRM Application
+2019-06-11 20:31:10,230  INFO [main] HomePage:49 - User is on Home Page
+2019-06-11 20:31:21,812  INFO [main] WebEventListener:24 - Browser Launched Successfully
+2019-06-11 20:31:21,917  INFO [main] LoginPage:33 - Login Page Title Verified
+2019-06-11 20:31:28,908  INFO [main] HomePage:40 - Successfully Logged into CRM Application
+2019-06-11 20:31:28,915  INFO [main] HomePage:49 - User is on Home Page
+2019-06-11 20:31:29,172 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-06-11 20:31:29,173 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-06-11 20:31:29,175 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-11 20:31:29,176 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-11 20:31:29,177 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/PAVAN/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-11 20:31:29,609 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-06-11 20:31:29,610 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-06-11 20:31:29,610 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-11 20:31:29,611 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-11 20:31:29,611 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/PAVAN/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
