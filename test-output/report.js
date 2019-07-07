@@ -48,28 +48,28 @@ formatter.match({
   "location": "LoginTestCase_1.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 15150470790,
+  "duration": 24798102559,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_1.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 58799738,
+  "duration": 115273535,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_1.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 5550469950,
+  "duration": 9299668832,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_1.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 23611796,
+  "duration": 6276290,
   "status": "passed"
 });
 formatter.uri("LoginFeature_2.feature");
@@ -187,14 +187,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 17557961441,
+  "duration": 13519265748,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 13977679,
+  "duration": 16468381,
   "status": "passed"
 });
 formatter.match({
@@ -211,14 +211,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 8328541000,
+  "duration": 12820912539,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 10197180,
+  "duration": 20761113,
   "status": "passed"
 });
 formatter.scenario({
@@ -257,14 +257,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 11643313311,
+  "duration": 18663024235,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 37097786,
+  "duration": 9262357,
   "status": "passed"
 });
 formatter.match({
@@ -281,14 +281,14 @@ formatter.match({
   "location": "LoginTestCase_2.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 6986698743,
+  "duration": 11372558980,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTestCase_2.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 5962311,
+  "duration": 14568793,
   "status": "passed"
 });
 });

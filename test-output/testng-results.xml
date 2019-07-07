@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="BDD Test Suite" duration-ms="66136" started-at="2019-06-11T15:00:22Z" finished-at="2019-06-11T15:01:29Z">
+  <suite name="BDD Test Suite" duration-ms="91269" started-at="2019-07-07T10:24:14Z" finished-at="2019-07-07T10:25:46Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunnerClass.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@1ec1f0c]" name="feature" class="com.crm.qa.TestRunner.TestRunnerClass"/>
+        <method signature="TestRunnerClass.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="feature" class="com.crm.qa.TestRunner.TestRunnerClass"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Free CRM Test" duration-ms="66136" started-at="2019-06-11T15:00:22Z" finished-at="2019-06-11T15:01:29Z">
+    <test name="Free CRM Test" duration-ms="91269" started-at="2019-07-07T10:24:14Z" finished-at="2019-07-07T10:25:46Z">
       <class name="com.crm.qa.TestRunner.TestRunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@1ec1f0c]" name="setUpClass" is-config="true" duration-ms="387" started-at="2019-06-11T20:30:22Z" finished-at="2019-06-11T20:30:23Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="setUpClass" is-config="true" duration-ms="308" started-at="2019-07-07T15:54:14Z" finished-at="2019-07-07T15:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@1ec1f0c]" name="feature" duration-ms="20840" started-at="2019-06-11T20:30:23Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-11T20:30:44Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="feature" duration-ms="34284" started-at="2019-07-07T15:54:15Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-07T15:54:49Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@1ec1f0c]" name="feature" duration-ms="44646" started-at="2019-06-11T20:30:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-11T20:31:28Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="feature" duration-ms="56472" started-at="2019-07-07T15:54:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-07T15:55:45Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@1ec1f0c]" name="tearDownClass" is-config="true" duration-ms="96" started-at="2019-06-11T20:31:28Z" finished-at="2019-06-11T20:31:29Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="tearDownClass" is-config="true" duration-ms="62" started-at="2019-07-07T15:55:45Z" finished-at="2019-07-07T15:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -18,7 +18,7 @@ import com.crm.qa.Utilities.WebEventListener;
 public class TestBase
 {
 	public static WebDriver driver; 
-	public static Properties property; //Making public So that we can use in all Child Classes.
+	public static Properties property; //Making Public So that we can use in all Child Classes.
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	public static Logger Log;
@@ -30,7 +30,7 @@ public class TestBase
 		try 
 		{
 			property = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\Pavan_JavaPractice\\Automation\\BDDFrameworkTestNG\\src\\main\\java\\com\\crm\\qa\\Configuration\\Configuration.properties");
+			FileInputStream ip = new FileInputStream("D:\\Automation_Workspace\\BDDFrameworkTestNG\\src\\main\\java\\com\\crm\\qa\\Configuration\\Configuration.properties");
 			property.load(ip);
 		} 
 		catch (FileNotFoundException e)
