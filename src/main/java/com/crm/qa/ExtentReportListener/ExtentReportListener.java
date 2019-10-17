@@ -18,10 +18,6 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-//Maven Dependency Should be Added.
-//Extent Report is completely dependent on TestNG Listener.
-//Listener tag should be Added in TestNG.xml with exact Package Name and Class Name.
-
 public class ExtentReportListener implements IReporter
 {
 	private ExtentReports extent;

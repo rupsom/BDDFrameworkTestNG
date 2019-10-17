@@ -18,19 +18,18 @@ import com.crm.qa.Utilities.WebEventListener;
 public class TestBase
 {
 	public static WebDriver driver; 
-	public static Properties property; //Making Public So that we can use in all Child Classes.
+	public static Properties property; 
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	public static Logger Log;
 	
-	//Using Base Class we are achieving Inheritance Concept from Java.
-	public TestBase() //Constructor to read data from property file.
+	public TestBase() 
 	{
-		Log = Logger.getLogger(this.getClass()); //Logger Implementation
+		Log = Logger.getLogger(this.getClass()); 
 		try 
 		{
 			property = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\Automation_Workspace\\BDDFrameworkTestNG\\src\\main\\java\\com\\crm\\qa\\Configuration\\Configuration.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/crm/qa/Configuration/Configuration.properties");
 			property.load(ip);
 		} 
 		catch (FileNotFoundException e)
@@ -43,13 +42,14 @@ public class TestBase
 		}
 	}
 	
-	public static void initialization() //Read the properties from Configuration File
+	public static void initialization()
 	{
 		String broswerName = property.getProperty("Browser");
 		
 		if(broswerName.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
@@ -61,7 +61,6 @@ public class TestBase
 		}
 		
 		e_driver = new EventFiringWebDriver(driver);
-		//Now create object of EventListerHandler to register it with EventFiringWebDriver.
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;

@@ -1,14 +1,15 @@
-Feature: Free CRM Login With Examples
+Feature: Free CRM Login With Examples Keyword
+  Description: This feature will test Login Feature of CRM Application
 
   #Logging in Using Scenario Outline - Achieving Data Driven Approach
   #Taking UserName and Password from Feature file
   Scenario Outline: Free CRM Login Test Scenario
-  Given User is should be on Login Page
-  When Title of login page should be verified
-  Then User enters "<Username>" and "<Password>" and clicks on login button
-  Then User should be on home page
+    Given User is should be on Login Page
+    When Title of login page should be verified
+    Then User enters "<Username>" and "<Password>" and clicks on login button
+    Then User should be on home page
 
-  Examples: 
+    Examples: 
       | Username   | Password  |
       | pavanreddy | Saibaba77 |
       | pavanreddy | Saibaba77 |

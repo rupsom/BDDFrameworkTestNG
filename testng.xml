@@ -3,7 +3,6 @@
 
 <suite name="BDD Test Suite">
 
-	<!-- Below Code is for ExtentReport  -->
 	<listeners>
 		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReportListener"/>
 	</listeners>
@@ -14,6 +13,6 @@
     		<class name="com.crm.qa.TestRunner.TestRunnerClass"/>
     	</classes>
     
-	</test> <!-- Test -->
+	</test>
 	
-</suite> <!-- Suite -->
+</suite> 

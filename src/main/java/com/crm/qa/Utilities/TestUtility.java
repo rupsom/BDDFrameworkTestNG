@@ -19,22 +19,18 @@ import org.testng.Assert;
 import com.crm.qa.BaseClass.TestBase;
 
 public class TestUtility extends TestBase
-{
-	
-	//Here we write all common methods which are available for all the Classes.
-	
-	//1. These 2 variable we used in TestBase Class for Page Load and Implicit Wait.
+{ 
+	//These 2 variable we used in TestBase Class for Page Load and Implicit Wait.
 	public static long Page_Load_TimeOut = 20;
 	public static long Implicit_Wait = 30;
 	
-	
-	//2. Switching to Frame Utility.
+	//Switching to Frame Utility.
 	public void switchToFrame()
 	{
 		driver.switchTo().frame("mainpanel");
 	}
 	
-	//4. Screenshot Utility.
+	//Screenshot Utility.
 	public static void takeScreenshotAtEndOfTest() throws IOException
 	{
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -42,7 +38,7 @@ public class TestUtility extends TestBase
 		FileUtils.copyFile(scrFile, new File(currentDir + "/Screenshots/" + System.currentTimeMillis() + ".png"));
 	}
 	
-	//5. Explicit Wait for Click on any Element
+	//Explicit Wait for Click on any Element.
 	public static void clickOn(WebDriver driver, WebElement element, int timeout)
 	{
 		new WebDriverWait(driver, timeout).
@@ -50,7 +46,7 @@ public class TestUtility extends TestBase
 		element.click();
 	}
 	
-	//6. Explicit Wait for Sending Data to any Element
+	//Explicit Wait for Sending Data to any Element.
 	public static void sendKeys(WebDriver driver, WebElement element, int timeout, String value)
 	{
 		new WebDriverWait(driver, timeout).
@@ -58,7 +54,7 @@ public class TestUtility extends TestBase
 		element.sendKeys(value);
 	}
 	
-	//7. To Highlight the Element
+	//Highlight the Element.
 	public static void highLightElement(WebDriver driver,WebElement element)
 	{
 		JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -74,7 +70,7 @@ public class TestUtility extends TestBase
 		js.executeScript("arguments[0].setAttribute('style','border: solid 2px white')", element);
 	}
 	
-	//8. To Handle Frame
+	//To Handle Frame.
 	public void switchToFrame(int frame) 
 	{
 		try
@@ -91,13 +87,13 @@ public class TestUtility extends TestBase
 		}
 	}
 	
-	//9. To Scroll to Particular Element 
+	//To Scroll to Particular Element.
 	public static void scrollSpecificElement(WebDriver driver,WebElement element)
 	{
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
 	}
 	
-	//10. Handle Alert in web base pop-up
+	//Handle Alert in web base Popup.
 	public static void handleWebBaseAlert()
 	{
 		String alertMsg=driver.switchTo().alert().getText();// To Capture Alert text
@@ -110,7 +106,7 @@ public class TestUtility extends TestBase
 		Assert.assertEquals(alertMsg, "Field cannot be empty");//Verify Alert Message	
 	}
 	
-	//11. Element Display or Not
+	//Element Display or Not.
 	public static void displayElement()
 	{
 		boolean elementDisplayed=driver.findElement(By.xpath("")).isDisplayed();
@@ -124,7 +120,7 @@ public class TestUtility extends TestBase
 		}
 	}
 	
-	//12. Element is Enable or Not
+	//Element is Enable or Not.
 	public static void enableElement()
 	{
 		boolean enable=driver.findElement(By.xpath("")).isEnabled();

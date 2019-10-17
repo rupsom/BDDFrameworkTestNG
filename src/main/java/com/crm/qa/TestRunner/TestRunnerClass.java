@@ -10,12 +10,12 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions
-(features = {"src\\main\\java\\com\\crm\\qa\\Features"}, //Path of the Feature Files.
-glue= {"com.crm.qa.StepDefinitions"}, //Path of the Step Definition Files.
-format = {"pretty", "html:test-output", "junit:junit_xml/cucumber.xml"}, //To Generate Output in Different types of Reports.
-monochrome = true, //To display Console Output in Very Readable Format.
-strict = true, //It will check if any step is not defined in Step Definition File. if Missed it will stop an execution.
-dryRun=false) //Checks whether all steps in future file has got methods in Step Definition File or No.
+	(features = {"src\\main\\java\\com\\crm\\qa\\Features"},
+	glue= {"com.crm.qa.StepDefinitions"}, 
+	plugin = {"pretty", "html:test-output", "junit:junit_xml/cucumber.xml"},
+	monochrome = true, 
+	strict = true, 
+	dryRun=false) 
 
 public class TestRunnerClass 
 {
@@ -46,8 +46,8 @@ public class TestRunnerClass
     }
 }
 
-//To Run Specific Feature File --- Give Complete Path of Particular Feature File to Run.
-//"D:\\Pavan_JavaPractice\\Automation\\BDDFrameworkJUnit\\src\\main\\java\\com\\crm\\qa\\Features\\LoginFeature_1.feature"
+//To Run Specific Feature File <--> Give Complete Path of Particular Feature File to Run.
+//D:\Automation_Workspace\BDDFrameworkTestNG\src\main\java\com\crm\qa\Features\LoginFeature_1.feature
 
 //To Run All Feature Files at a Single Time -- Give Path as Below
-//"src\\main\\java\\com\\crm\\qa\\Features"
+//src\\main\\java\\com\\crm\\qa\\Features
