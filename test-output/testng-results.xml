@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="BDD Test Suite" duration-ms="51408" started-at="2019-10-17T17:39:21Z" finished-at="2019-10-17T17:40:12Z">
+  <suite name="BDD Test Suite" duration-ms="44030" started-at="2019-12-22T11:45:05Z" finished-at="2019-12-22T11:45:49Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunnerClass.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="feature" class="com.crm.qa.TestRunner.TestRunnerClass"/>
+        <method signature="TestRunnerFile.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerFile@464bee09]" name="feature" class="com.crm.qa.TestRunner.TestRunnerFile"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Free CRM Test" duration-ms="51408" started-at="2019-10-17T17:39:21Z" finished-at="2019-10-17T17:40:12Z">
-      <class name="com.crm.qa.TestRunner.TestRunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="setUpClass" is-config="true" duration-ms="325" started-at="2019-10-17T23:09:21Z" finished-at="2019-10-17T23:09:21Z">
+    <test name="Free CRM Test" duration-ms="44030" started-at="2019-12-22T11:45:05Z" finished-at="2019-12-22T11:45:49Z">
+      <class name="com.crm.qa.TestRunner.TestRunnerFile">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerFile@464bee09]" name="setUpClass" is-config="true" duration-ms="363" started-at="2019-12-22T17:15:05Z" finished-at="2019-12-22T17:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="feature" duration-ms="18386" started-at="2019-10-17T23:09:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-17T23:09:39Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerFile@464bee09]" name="feature" duration-ms="43392" started-at="2019-12-22T17:15:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-22T17:15:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Free CRM Login]]>
+                <![CDATA[CRM Application Login Test]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="feature" duration-ms="32489" started-at="2019-10-17T23:09:39Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-17T23:10:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Free CRM Login With Examples Keyword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerClass@553f17c]" name="tearDownClass" is-config="true" duration-ms="70" started-at="2019-10-17T23:10:12Z" finished-at="2019-10-17T23:10:12Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.crm.qa.TestRunner.TestRunnerFile@464bee09]" name="tearDownClass" is-config="true" duration-ms="119" started-at="2019-12-22T17:15:49Z" finished-at="2019-12-22T17:15:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.crm.qa.TestRunner.TestRunnerClass -->
+      </class> <!-- com.crm.qa.TestRunner.TestRunnerFile -->
     </test> <!-- Free CRM Test -->
   </suite> <!-- BDD Test Suite -->
 </testng-results>

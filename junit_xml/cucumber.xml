@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.774782">
-<testcase classname="Free CRM Login" name="Free CRM Login Test Scenario" time="18.317895">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="43.318203">
+<testcase classname="CRM Application Login Test" name="Free CRM Login Test" time="24.442959">
 <system-out><![CDATA[Given User is already on Login Page.........................................passed
-When Title of login page is Free CRM........................................passed
-Then User enters username and password and click on login button............passed
-Then User is on home page...................................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters "Reddy77077" and "Saibaba77" and click on login button.....passed
+Then User is on Home Page...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login With Examples Keyword" name="Free CRM Login Test Scenario" time="16.847646">
-<system-out><![CDATA[Given User is should be on Login Page.......................................passed
-When Title of login page should be verified.................................passed
-Then User enters "pavanreddy" and "Saibaba77" and clicks on login button....passed
-Then User should be on home page............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Login With Examples Keyword" name="Free CRM Login Test Scenario 2" time="15.609241">
-<system-out><![CDATA[Given User is should be on Login Page.......................................passed
-When Title of login page should be verified.................................passed
-Then User enters "pavanreddy" and "Saibaba77" and clicks on login button....passed
-Then User should be on home page............................................passed
+<testcase classname="CRM Application Login Test" name="Free CRM Login Test 2" time="18.875244">
+<system-out><![CDATA[Given User is already on Login Page.........................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters "Reddy77077" and "Saibaba77" and click on login button.....passed
+Then User is on Home Page...................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

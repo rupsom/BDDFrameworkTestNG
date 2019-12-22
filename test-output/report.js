@@ -1,177 +1,153 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginFeature_1.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginPage.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Free CRM Login",
-  "description": "Description: This feature will test Login Feature of CRM Application",
-  "id": "free-crm-login",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "comments": [
+  "line": 2,
+  "name": "CRM Application Login Test",
+  "description": "Description: To Test the Login Functionality of CRM Application",
+  "id": "crm-application-login-test",
+  "keyword": "Feature",
+  "tags": [
     {
-      "line": 4,
-      "value": "#Without Examples Keyword"
-    },
-    {
-      "line": 5,
-      "value": "#Logging in Normally - Taking UserName and Password from Property file"
+      "line": 1,
+      "name": "@CRMLoginTest"
     }
-  ],
-  "line": 6,
-  "name": "Free CRM Login Test Scenario",
-  "description": "",
-  "id": "free-crm-login;free-crm-login-test-scenario",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 7,
-  "name": "User is already on Login Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "Title of login page is Free CRM",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "User enters username and password and click on login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "User is on home page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginTestCase_1.user_is_already_on_Login_Page()"
-});
-formatter.result({
-  "duration": 11204480039,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTestCase_1.title_of_login_page_is_Free_CRM()"
-});
-formatter.result({
-  "duration": 123633051,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTestCase_1.user_enters_username_and_password()"
-});
-formatter.result({
-  "duration": 6978322873,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTestCase_1.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 11459469,
-  "status": "passed"
-});
-formatter.uri("LoginFeature_2.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Free CRM Login With Examples Keyword",
-  "description": "Description: This feature will test Login Feature of CRM Application",
-  "id": "free-crm-login-with-examples-keyword",
-  "keyword": "Feature"
+  ]
 });
 formatter.scenarioOutline({
   "comments": [
     {
-      "line": 4,
-      "value": "#Logging in Using Scenario Outline - Achieving Data Driven Approach"
+      "line": 5,
+      "value": "#Normal Login - Taking UserName and Password from Property File"
     },
     {
-      "line": 5,
-      "value": "#Taking UserName and Password from Feature file"
+      "line": 6,
+      "value": "#@SmokeTest"
+    },
+    {
+      "line": 7,
+      "value": "#Scenario: Free CRM Login Test"
+    },
+    {
+      "line": 8,
+      "value": "#Given User is already on Login Page"
+    },
+    {
+      "line": 9,
+      "value": "#When Title of Login Page is Free CRM"
+    },
+    {
+      "line": 10,
+      "value": "#Then User enters username and password and click on login button"
+    },
+    {
+      "line": 11,
+      "value": "#Then User is on Home Page"
+    },
+    {
+      "line": 13,
+      "value": "#Logging in Using Scenario Outline - Achieving Data Driven Approach"
     }
   ],
-  "line": 6,
-  "name": "Free CRM Login Test Scenario",
+  "line": 15,
+  "name": "Free CRM Login Test",
   "description": "",
-  "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario",
+  "id": "crm-application-login-test;free-crm-login-test",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 14,
+      "name": "@SanityTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 7,
-  "name": "User is should be on Login Page",
+  "line": 16,
+  "name": "User is already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "Title of login page should be verified",
+  "line": 17,
+  "name": "Title of Login Page is Free CRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "User enters \"\u003cUsername\u003e\" and \"\u003cPassword\u003e\" and clicks on login button",
+  "line": 18,
+  "name": "User enters \"\u003cUsername\u003e\" and \"\u003cPassword\u003e\" and click on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
-  "name": "User should be on home page",
+  "line": 19,
+  "name": "User is on Home Page",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 12,
+  "line": 21,
   "name": "",
   "description": "",
-  "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario;",
+  "id": "crm-application-login-test;free-crm-login-test;",
   "rows": [
     {
       "cells": [
         "Username",
         "Password"
       ],
-      "line": 13,
-      "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario;;1"
+      "line": 22,
+      "id": "crm-application-login-test;free-crm-login-test;;1"
     },
     {
       "cells": [
-        "pavanreddy",
+        "Reddy77077",
         "Saibaba77"
       ],
-      "line": 14,
-      "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario;;2"
+      "line": 23,
+      "id": "crm-application-login-test;free-crm-login-test;;2"
     },
     {
       "cells": [
-        "pavanreddy",
+        "Reddy77077",
         "Saibaba77"
       ],
-      "line": 15,
-      "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario;;3"
+      "line": 24,
+      "id": "crm-application-login-test;free-crm-login-test;;3"
     }
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 444570,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 14,
-  "name": "Free CRM Login Test Scenario",
+  "line": 23,
+  "name": "Free CRM Login Test",
   "description": "",
-  "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario;;2",
+  "id": "crm-application-login-test;free-crm-login-test;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 14,
+      "name": "@SanityTest"
+    },
+    {
+      "line": 1,
+      "name": "@CRMLoginTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 7,
-  "name": "User is should be on Login Page",
+  "line": 16,
+  "name": "User is already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "Title of login page should be verified",
+  "line": 17,
+  "name": "Title of Login Page is Free CRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "User enters \"pavanreddy\" and \"Saibaba77\" and clicks on login button",
+  "line": 18,
+  "name": "User enters \"Reddy77077\" and \"Saibaba77\" and click on login button",
   "matchedColumns": [
     0,
     1
@@ -179,28 +155,28 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
-  "name": "User should be on home page",
+  "line": 19,
+  "name": "User is on Home Page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginTestCase_2.user_is_already_on_Login_Page()"
+  "location": "LoginPageTest.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 9479499842,
+  "duration": 17253799375,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginTestCase_2.title_of_login_page_is_Free_CRM()"
+  "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 20648970,
+  "duration": 46709292,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "pavanreddy",
+      "val": "Reddy77077",
       "offset": 13
     },
     {
@@ -208,40 +184,58 @@ formatter.match({
       "offset": 30
     }
   ],
-  "location": "LoginTestCase_2.user_enters_and_and_click_on_login_button(String,String)"
+  "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 7341559365,
+  "duration": 7134935778,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginTestCase_2.user_is_on_home_page()"
+  "location": "LoginPageTest.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 5937558,
+  "duration": 6938192,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 131552,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 255640,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 15,
-  "name": "Free CRM Login Test Scenario",
+  "line": 24,
+  "name": "Free CRM Login Test",
   "description": "",
-  "id": "free-crm-login-with-examples-keyword;free-crm-login-test-scenario;;3",
+  "id": "crm-application-login-test;free-crm-login-test;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 14,
+      "name": "@SanityTest"
+    },
+    {
+      "line": 1,
+      "name": "@CRMLoginTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 7,
-  "name": "User is should be on Login Page",
+  "line": 16,
+  "name": "User is already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "Title of login page should be verified",
+  "line": 17,
+  "name": "Title of Login Page is Free CRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "User enters \"pavanreddy\" and \"Saibaba77\" and clicks on login button",
+  "line": 18,
+  "name": "User enters \"Reddy77077\" and \"Saibaba77\" and click on login button",
   "matchedColumns": [
     0,
     1
@@ -249,28 +243,28 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
-  "name": "User should be on home page",
+  "line": 19,
+  "name": "User is on Home Page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginTestCase_2.user_is_already_on_Login_Page()"
+  "location": "LoginPageTest.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 10549658478,
+  "duration": 10148069967,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginTestCase_2.title_of_login_page_is_Free_CRM()"
+  "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 14172143,
+  "duration": 12382665,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "pavanreddy",
+      "val": "Reddy77077",
       "offset": 13
     },
     {
@@ -278,17 +272,21 @@ formatter.match({
       "offset": 30
     }
   ],
-  "location": "LoginTestCase_2.user_enters_and_and_click_on_login_button(String,String)"
+  "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 5033569038,
+  "duration": 8703017575,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginTestCase_2.user_is_on_home_page()"
+  "location": "LoginPageTest.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 11841529,
+  "duration": 11454338,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 63910,
   "status": "passed"
 });
 });

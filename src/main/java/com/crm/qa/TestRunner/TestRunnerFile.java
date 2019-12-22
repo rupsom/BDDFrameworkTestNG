@@ -10,14 +10,16 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions
-	(features = {"src\\main\\java\\com\\crm\\qa\\Features"},
-	glue= {"com.crm.qa.StepDefinitions"}, 
-	plugin = {"pretty", "html:test-output", "junit:junit_xml/cucumber.xml"},
-	monochrome = true, 
-	strict = true, 
-	dryRun=false) 
+		(features = {"src/main/java/com/crm/qa/Features"}, 
+		glue= {"com.crm.qa.StepDefinitions"}, 
+		plugin = {"pretty", "html:test-output", "junit:junit_xml/cucumber.xml"}, 
+		monochrome = true, 
+		strict = true,
+		dryRun=false,
+		tags={"@CRMLoginTest"})
+		//tags={"@SanityTest, @RegressionTest"})
 
-public class TestRunnerClass 
+public class TestRunnerFile 
 {
 	private TestNGCucumberRunner testNGCucumberRunner;
 	 
@@ -45,9 +47,3 @@ public class TestRunnerClass
         testNGCucumberRunner.finish();
     }
 }
-
-//To Run Specific Feature File <--> Give Complete Path of Particular Feature File to Run.
-//D:\Automation_Workspace\BDDFrameworkTestNG\src\main\java\com\crm\qa\Features\LoginFeature_1.feature
-
-//To Run All Feature Files at a Single Time -- Give Path as Below
-//src\\main\\java\\com\\crm\\qa\\Features

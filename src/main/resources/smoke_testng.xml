@@ -2,17 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="BDD Test Suite">
-
-	<listeners>
-		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReportListener"/>
-	</listeners>
 	
 	<test name="Free CRM Test">
-	
     	<classes>
-    		<class name="com.crm.qa.TestRunner.TestRunnerClass"/>
+    		<class name="com.crm.qa.TestRunner.TestRunnerFile"/>
     	</classes>
-    
 	</test>
 	
 </suite> 

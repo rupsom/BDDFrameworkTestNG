@@ -15,7 +15,7 @@ public class LoginPage extends TestBase
 	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@class='btn btn-small' and @type='submit']")
+	@FindBy(xpath="//input[@class='btn btn-small' and @type='submit']") 
 	WebElement loginButton;
 	
 	@FindBy(xpath="//button[contains(text(),'Sign Up')]")
@@ -47,7 +47,7 @@ public class LoginPage extends TestBase
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", loginButton);
 				
-		return new HomePage(); 
+		return new HomePage();
 	}
 }
 
