@@ -77,13 +77,14 @@ public class LoginPageTest extends TestBase {
 			log.info("Home page title is not matched");
 		} finally {
 			TestUtility.reportFlush();
+			
 		}
 	}
 	
 	@AfterMethod
 	public void tearDown(ITestResult result) {
 		if(result.getStatus() == 2) {
-			loginLogger.fail(result.getName());
+			
 			
 		}
 	}
