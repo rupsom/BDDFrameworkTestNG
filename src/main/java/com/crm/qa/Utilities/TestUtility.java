@@ -31,11 +31,14 @@ public class TestUtility extends TestBase
 	}
 	
 	//3. Screenshot Utility.
-	public static void takeScreenshotAtEndOfTest() throws IOException
+	public static String takeScreenshotAtEndOfTest() throws IOException
 	{
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
-		FileUtils.copyFile(scrFile, new File(currentDir + "/Screenshots/" + System.currentTimeMillis() + ".png"));
+		String screenshotsLocation = currentDir + "/Screenshots/" + System.currentTimeMillis() + ".png";
+		FileUtils.copyFile(scrFile, new File(screenshotsLocation));
+
+		return screenshotsLocation;
 	}
 	
 	//4. Explicit Wait for Click on any Element.
@@ -132,5 +135,9 @@ public class TestUtility extends TestBase
 		{
 			System.out.println("Element is not enabled in page");
 		}
+	}
+	
+	public static void reportFlush() {
+		extentReports.flush();
 	}
 }

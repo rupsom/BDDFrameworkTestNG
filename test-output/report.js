@@ -113,10 +113,6 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
-formatter.before({
-  "duration": 444570,
-  "status": "passed"
-});
 formatter.scenario({
   "line": 23,
   "name": "Free CRM Login Test",
@@ -163,15 +159,16 @@ formatter.match({
   "location": "LoginPageTest.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 17253799375,
+  "duration": 20986193300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 46709292,
-  "status": "passed"
+  "duration": 62254628000,
+  "error_message": "java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:33)\r\n\tat ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -187,23 +184,13 @@ formatter.match({
   "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "duration": 7134935778,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginPageTest.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 6938192,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 131552,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 255640,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 24,
@@ -249,44 +236,4 @@ formatter.step({
 });
 formatter.match({
   "location": "LoginPageTest.user_is_already_on_Login_Page()"
-});
-formatter.result({
-  "duration": 10148069967,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
-});
-formatter.result({
-  "duration": 12382665,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Reddy77077",
-      "offset": 13
-    },
-    {
-      "val": "Saibaba77",
-      "offset": 30
-    }
-  ],
-  "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
-});
-formatter.result({
-  "duration": 8703017575,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginPageTest.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 11454338,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 63910,
-  "status": "passed"
-});
 });
