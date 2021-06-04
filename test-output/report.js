@@ -159,15 +159,15 @@ formatter.match({
   "location": "LoginPageTest.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 20986193300,
+  "duration": 17075759601,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 62254628000,
-  "error_message": "java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:33)\r\n\tat ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)\r\n",
+  "duration": 71495300,
+  "error_message": "java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)\r\n\tat ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -236,4 +236,39 @@ formatter.step({
 });
 formatter.match({
   "location": "LoginPageTest.user_is_already_on_Login_Page()"
+});
+formatter.result({
+  "duration": 16410118600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
+});
+formatter.result({
+  "duration": 97998800,
+  "error_message": "java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)\r\n\tat ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Reddy77077",
+      "offset": 13
+    },
+    {
+      "val": "Saibaba77",
+      "offset": 30
+    }
+  ],
+  "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "LoginPageTest.user_is_on_home_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
 });
