@@ -20,7 +20,7 @@ public class LoginPageTest extends TestBase {
 	LoginPage login;
 	HomePage homePage;
 	ExtentTest loginLogger = extentReports.createTest("Login Page");
-	Boolean assertResult = true;
+	boolean assertResult = true;
 	SoftAssert softassert = new SoftAssert();
 
 	@Given("^User is already on Login Page$")
