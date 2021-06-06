@@ -159,16 +159,15 @@ formatter.match({
   "location": "LoginPageTest.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 17075759601,
+  "duration": 18138748000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 71495300,
-  "error_message": "java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)\r\n\tat ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)\r\n",
-  "status": "failed"
+  "duration": 91216800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -184,13 +183,15 @@ formatter.match({
   "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3983637900,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.user_is_on_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 634905900,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 24,
@@ -238,16 +239,15 @@ formatter.match({
   "location": "LoginPageTest.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 16410118600,
+  "duration": 15953915700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 97998800,
-  "error_message": "java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)\r\n\tat ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)\r\n",
-  "status": "failed"
+  "duration": 18163700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -263,12 +263,14 @@ formatter.match({
   "location": "LoginPageTest.user_enters_and_and_click_on_login_button(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4042260400,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.user_is_on_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 120373200,
+  "status": "passed"
 });
 });

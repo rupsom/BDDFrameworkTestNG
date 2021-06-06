@@ -1,0 +1,12 @@
+[INFO ] 2021-06-06 13:58:49.615 [main] TestBase - Browser Open
+[INFO ] 2021-06-06 13:58:53.966 [main] TestBase - Before navigating to: 'https://classic.crmpro.com/index.html'
+[INFO ] 2021-06-06 13:58:59.266 [main] TestBase - URL -https://classic.crmpro.com/index.html
+[INFO ] 2021-06-06 13:58:59.365 [main] TestBase - Login page title is successful
+[INFO ] 2021-06-06 13:59:03.350 [main] TestBase - Login is successful
+[INFO ] 2021-06-06 13:59:03.363 [main] TestBase - Home Page opening is successful
+[INFO ] 2021-06-06 13:59:09.833 [main] TestBase - Browser Open
+[INFO ] 2021-06-06 13:59:14.140 [main] TestBase - Before navigating to: 'https://classic.crmpro.com/index.html'
+[INFO ] 2021-06-06 13:59:19.949 [main] TestBase - URL -https://classic.crmpro.com/index.html
+[INFO ] 2021-06-06 13:59:19.969 [main] TestBase - Login page title is successful
+[INFO ] 2021-06-06 13:59:24.013 [main] TestBase - Login is successful
+[INFO ] 2021-06-06 13:59:24.026 [main] TestBase - Home Page opening is successful

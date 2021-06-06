@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="33.655372">
-<testcase classname="CRM Application Login Test" name="Free CRM Login Test" time="17.147255">
-<failure message="java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)&#13;&#10;&#9;at ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)&#13;&#10;"><![CDATA[Given User is already on Login Page.........................................passed
-When Title of Login Page is Free CRM........................................failed
-Then User enters "Reddy77077" and "Saibaba77" and click on login button.....skipped
-Then User is on Home Page...................................................skipped
-
-StackTrace:
-java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)
-	at ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="42.983222">
+<testcase classname="CRM Application Login Test" name="Free CRM Login Test" time="22.848509">
+<system-out><![CDATA[Given User is already on Login Page.........................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters "Reddy77077" and "Saibaba77" and click on login button.....passed
+Then User is on Home Page...................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="CRM Application Login Test" name="Free CRM Login Test 2" time="16.508117">
-<failure message="java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)&#13;&#10;&#9;at ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)&#13;&#10;"><![CDATA[Given User is already on Login Page.........................................passed
-When Title of Login Page is Free CRM........................................failed
-Then User enters "Reddy77077" and "Saibaba77" and click on login button.....skipped
-Then User is on Home Page...................................................skipped
-
-StackTrace:
-java.lang.AssertionError: expected [CRMPRO -1 CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.crm.qa.StepDefinitions.LoginPageTest.title_of_login_page_is_Free_CRM(LoginPageTest.java:36)
-	at ✽.When Title of Login Page is Free CRM(LoginPage.feature:17)
-]]></failure>
+<testcase classname="CRM Application Login Test" name="Free CRM Login Test 2" time="20.134713">
+<system-out><![CDATA[Given User is already on Login Page.........................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters "Reddy77077" and "Saibaba77" and click on login button.....passed
+Then User is on Home Page...................................................passed
+]]></system-out>
 </testcase>
 </testsuite>
